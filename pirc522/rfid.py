@@ -6,7 +6,7 @@ board = RASPBERRY
 try:
     # Try with Raspberry PI imports first
     import spidev
-    import RPi.GPIO as GPIO
+    import Jetson.GPIO as GPIO
     SPIClass = spidev.SpiDev
     def_pin_rst = 22
     def_pin_irq = 18
